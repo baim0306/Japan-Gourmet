@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fascinate&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- vanilla css -->
+    <style>
+      html, body{
+        overflow-x: hidden;
+      }
+
+      .font-fascinate {
+        font-family: "Fascinate", system-ui;
+      }
+
+      .text-shadow {
+        text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+      }
+
+      .prev:hover .btn-prev,
+      .next:hover .btn-next {
+        filter: drop-shadow(8px 8px 8px red);
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-b from-red-700 to-red-950">
+    <!-- hero section start -->
+    <section class="w-full h-screen flex overflow-hidden relative">
+      <div
+        class="w-1/2 h-full bg-gradient-to-b from-gray-950 via-gray-800 to-transparent flex px-4 justify-center items-center md:w-2/3 lg:justify-start"
+      >
+        <div
+          class="w-full h-[80%] bg-transparent px-4 rounded-xl shadow-lg shadow-black relative flex flex-col justify-center overflow-hidden"
+        >
+          <div
+            class="w-full h-full absolute bg-[url('./img/frame.png')] bg-no-repeat bg-center bg-cover top-0 left-0"
+          ></div>
+          <h1
+            class="text-red-700 text-5xl font-fascinate text-shadow z-10 xl:text-6xl"
+          >
+            JAPAN FOOD
+          </h1>
+          <h2
+            class="font-fascinate font-semibold text-slate-300 text-2xl text-shadow md:text-3xl xl:text-4xl z-10 mt-4"
+          >
+            Rasa yang khas
+          </h2>
+          <h3
+            class="font-arial font-semibold text-slate-300 text-sm text-shadow mt-5 xl:text-base z-10"
+          >
+            Nikmati rasa yang unik disetiap gigitan
+          </h3>
+          <p
+            class="font-arial text-slate-500 text-xs text-shadow mt-2 xl:text-sm z-10"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt
+            magnam atque debitis ipsa non deleniti dolorum corrupti eaque, eos
+            quaerat.
+          </p>
+          <h3
+            class="font-arial font-semibold text-slate-300 text-sm text-shadow mt-2 xl:text-base z-10"
+          >
+            Ayo! your food is waiting for you
+          </h3>
+        </div>
+      </div>
+      <div class="w-1/2 h-[95%] flex flex-col gap-8 p-4 md:w-1/3">
+        <div
+          class="w-full h-[20%] bg-gray-800 -skew-x-12 rotate-[-10deg] rounded-lg shadow-black shadow-lg flex justify-center items-center"
+        >
+          <h1
+            class="text-4xl text-slate-300 font-fascinate font-semibold text-shadow lg:text-5xl"
+          >
+            美味しい
+          </h1>
+        </div>
+        <div
+          class="w-full h-[60%] bg-[url('./img/bg-hero.webp')] bg-center bg-cover -skew-x-12 rotate-[-10deg] rounded-lg shadow-black shadow-lg"
+        ></div>
+        <div
+          class="w-full h-[20%] bg-gray-800 -skew-x-12 rotate-[-10deg] rounded-lg shadow-black shadow-lg flex justify-center items-center"
+        >
+          <h1
+            class="text-4xl text-slate-300 font-fascinate font-semibold text-shadow lg:text-5xl"
+          >
+            旨い
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- restaurant section start -->
+    <section class="w-full p-4 flex flex-col h-screen items-center mt-20 gap-8">
+      <div
+        class="w-[60%] p-4 bg-gradient-to-r from-transparent to-gray-800 shadow-black shadow-lg rounded-lg skew-x-12 flex justify-center flex-1"
+      >
+        <h2
+          class="font-fascinate font-semibold text-2xl text-slate-300 text-shadow -skew-x-12"
+        >
+          Tipe Restoran
+        </h2>
+      </div>
+      <div
+        class="w-full px-4 flex-4 h-screen bg-gradient-to-b from-transparent to-gray-950 rounded-xl flex flex-col gap-5 p-4 items-center shadow-lg shadow-black/50"
+      >
+        <p
+          class="des-type-rest w-full text-slate-300 text-xs font-arial text-shadow leading-relaxed lg:text-sm"
+        >
+          Pasti kamu pernah denger bahwa Jepang adalah salah satu negara yang
+          disebut-sebut sebagai negara dengan wisatawan terbanyak didunia. Yup
+          Jepang memang punya wisatawan yang banyak banget dan gak hanya yang
+          jalan-jalan aja, tetapi juga pekerja asingnya juga banyak yang
+          mengakibatkan berbagai macam industri yang menganut konsep yang
+          beragam pula.
+          <br />
+          <br />
+          Restoran adalah salah satu industri dengan peminat terbesar di negara
+          matahari terbit tersebut. Makanan Jepang memang terkenal banget sampai
+          ke seluruh penjuru diduia, kalian pasti tau makanannya seperti sushi,
+          ramen, takoyaki, dll. Maka dari itu sebelum berkunjung ke Jepang gk
+          salah juga untuk mencari info tentang restoran tipe apa yang ingin
+          kamu kunjungi, atau bahkan mau mencoba semua jenis restoran juga boleh
+          banget hehe.
+          <br />
+          <br />
+          Berikut saya bagikan sedikit hal yang saya tahu mengenai jenis
+          restoran Jepang yang banyak dikunjungi dan semoga teman-teman bisa
+          terbantu dengan ini.
+        </p>
+        <div class="w-full h-full flex items-center gap-2 justify-center">
+          <!-- prev button -->
+          <button
+            class="prev p-3 rounded-full bg-white relative w-12 h-12 lg:w-16 lg:h-16 hover:bg-transparent transition duration-300 ease-in-out group"
+          >
+            <div
+              class="border-l-[7px] border-b-[7px] border-red-700 w-6 h-6 btn-left absolute rotate-[45deg] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 btn-prev group-hover:border-white rounded-md"
+            ></div>
+          </button>
+
+          <!-- card section -->
+          <div
+            class="w-[80%] aspect-[4/3] bg-white rounded-lg overflow-hidden lg:w-[60%] xl:aspect-[16/9]"
+          >
+            <div
+              class="card-wrapper w-full h-full transition duration-300 ease flex"
+            >
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">IZAKAYA</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/izakaya.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Izakaya adalah pub atau kedai minuman tradisional Jepang
+                      yang menyajikan minuman beralkohol dan berbagai hidangan
+                      kecil (tapas) untuk dinikmati bersama. Tempat ini dikenal
+                      dengan suasananya yang santai dan kasual, seringkali
+                      menjadi tempat favorit untuk bersosialisasi setelah jam
+                      kerja, mirip dengan pub atau bar di negara lain.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">KAISEKI RYOURI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/kaiseki-ryouri.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Kaiseki ryori adalah hidangan haute cuisine tradisional
+                      Jepang yang terdiri dari banyak hidangan kecil yang
+                      disajikan secara berurutan. Hidangan ini menekankan
+                      penggunaan bahan-bahan musiman yang segar, dan sangat
+                      memperhatikan estetika penyajiannya sehingga keseimbangan
+                      rasa, tekstur, dan warna menjadi sangat penting. Kaiseki
+                      ryori dianggap sebagai puncak seni kuliner Jepang yang
+                      memadukan warisan kuliner, budaya, dan estetika.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">KAITEN ZUSHI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/kaiten-zushi.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Kaiten zushi adalah restoran sushi di Jepang yang
+                      menyajikan makanan siap saji di atas ban berjalan
+                      (konveyor). Pengunjung dapat mengambil piring sushi kecil
+                      yang mereka inginkan langsung dari ban berjalan yang
+                      berputar di depan mereka. Konsep ini sering juga disebut
+                      sushi ban berjalan, sushi-go-round, atau sushi rotasi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">KISSATEN</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/kissaten.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Kissaten adalah kafe tradisional Jepang yang berakar pada
+                      budaya minum teh dan kopi dengan suasana klasik, tenang,
+                      dan intim. Secara harfiah berarti "toko minum teh," kini
+                      kissaten juga menawarkan berbagai macam kopi, makanan
+                      ringan seperti kue, hingga hidangan berat dan minuman
+                      lainnya, serta menyediakan suasana unik untuk bersantai,
+                      mendengarkan musik, atau berkumpul.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">OMAKSE</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/omakase.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Omakase adalah istilah Jepang yang berarti "Saya serahkan
+                      pada Anda", yang merujuk pada cara memesan makanan di
+                      restoran Jepang di mana pelanggan sepenuhnya mempercayakan
+                      pilihan hidangan kepada koki. Pengalaman ini memungkinkan
+                      koki untuk menyajikan hidangan sesuai dengan bahan-bahan
+                      terbaik yang tersedia pada hari itu, dengan kreatifitas
+                      sang koki dan disesuaikan dengan bahan musiman yang paling
+                      segar.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">RAMEN-YA</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/ramen-ya.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Ramen-ya adalah restoran yang berfokus pada penjualan
+                      ramen, yaitu hidangan mi Jepang yang terbuat dari mi
+                      gandum dalam kuah kaldu. Di Jepang, tempat ini sering
+                      disebut "ramen-ya" atau "ramen-ten" dan sangat populer,
+                      dengan beragam variasi yang ditawarkan di setiap daerah.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">ROBATAYAKI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/robatayaki.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Robatayaki adalah metode memasak Jepang di mana makanan
+                      seperti makanan laut, daging, dan sayuran dipanggang di
+                      atas arang panas dan sering kali disajikan langsung di
+                      hadapan tamu. Kata "robatayaki" secara harfiah berarti
+                      "memanggang di tepi perapian" (炉端焼き). Gaya memasak ini
+                      berawal dari nelayan di Hokkaido yang menggunakan kotak
+                      batu dengan arang untuk memasak di kapal.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">RYOUTEI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/ryoutei.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Ryoutei adalah restoran Jepang tradisional berkelas tinggi
+                      yang sering kali menjadi tempat pertemuan bisnis atau
+                      politik, dikenal karena keistimewaan dan privasi yang
+                      ditawarkannya. Ryoutei menawarkan pengalaman makan yang
+                      khas, dengan layanan eksklusif, ruangan privat, dan
+                      suasana yang mengutamakan kerahasiaan, di mana biaya makan
+                      sering kali dibayar oleh tuan rumah dan rincian harga
+                      tidak ditampilkan kepada tamu yang diundang.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">SHOKUDO</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/shokudo.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Shokudo (食堂) adalah istilah bahasa Jepang yang secara
+                      harfiah berarti "ruang makan" atau "kantin". Ini merujuk
+                      pada restoran kasual atau kafetaria yang menyajikan
+                      hidangan Jepang yang terjangkau dan seringkali bergaya
+                      rumahan.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">SUSHI-YA</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/sushi-ya.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      "Sushi-ya" adalah terjemahan dari kata dalam bahasa Jepang
+                      yang berarti "toko sushi" atau "restoran sushi". Istilah
+                      ini merujuk pada jenis restoran yang berspesialisasi dalam
+                      menyajikan sushi dan sering kali juga hidangan Jepang
+                      lainnya seperti sashimi, bento, dan donburi.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">TEISHOKU-YA</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/teishoku-ya.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Teishoku-ya adalah restoran Jepang yang mengkhususkan diri
+                      dalam menyajikan teishoku, yaitu menu set makan yang
+                      terdiri dari hidangan utama (seperti ikan bakar, ayam
+                      goreng, atau daging), semangkuk nasi, sup miso, dan acar.
+                      Menu set ini populer untuk makan siang dan sering kali
+                      dianggap sebagai pilihan makan yang terjangkau, sehat, dan
+                      seimbang.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">TEPPANYAKI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/teppanyaki.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Teppanyaki adalah gaya memasak dan seni kuliner Jepang
+                      yang menggunakan wajan datar dari besi ("teppan") untuk
+                      memanggang atau menggoreng berbagai macam bahan seperti
+                      daging, makanan laut, dan sayuran ("yaki"). Teknik ini
+                      sering kali melibatkan atraksi memasak yang disajikan
+                      langsung di depan pelanggan, termasuk saat koki memasak
+                      makanan dan berinteraksi dengan penonton.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">TONKATSU-YA</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/tonkatsu-ya.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Tonkatsu-ya adalah restoran Jepang yang khusus menyajikan
+                      tonkatsu, yaitu irisan daging babi yang dilapisi tepung
+                      roti (panko) dan digoreng hingga renyah. Restoran ini
+                      menyajikan tonkatsu dengan berbagai cara, sering kali
+                      sebagai hidangan utama dengan pendamping seperti nasi,
+                      irisan kubis, dan sup miso.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">YAKINIKU</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/yakiniku.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Restoran yakiniku adalah restoran yang menawarkan
+                      pengalaman BBQ ala Jepang di mana pengunjung dapat
+                      memanggang sendiri berbagai jenis daging, makanan laut,
+                      dan sayuran yang diiris tipis di atas panggangan yang
+                      diletakkan di meja. Nama "yakiniku" berasal dari kata
+                      Jepang yang berarti "daging panggang" (yaki = panggang,
+                      niku = daging).
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card min-w-full h-full p-2 flex flex-col">
+                <h2 class="font-arial font-bold">YATAI</h2>
+                <div
+                  class="w-full h-full bg-[url('./img/yatai.webp')] bg-cover bg-center group overflow-hidden"
+                >
+                  <div
+                    class="w-full h-full bg-gradient-to-b from-transparent to-gray-950 flex items-end translate-y-[100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition duration-300 ease-in-out backdrop-blur"
+                  >
+                    <p
+                      class="text-sm text-slate-300 p-4 text-center xl:text-base"
+                    >
+                      Yatai adalah warung atau kios makanan sementara khas
+                      Jepang yang biasanya dibuka di tempat umum, seperti tepi
+                      jalan atau saat festival, dan tutup pada malam hari.
+                      Warung ini menjual berbagai jenis makanan dan minuman
+                      jalanan, terutama ramen, yakitori, takoyaki, dan makanan
+                      lainnya. Yatai sangat populer di Fukuoka, di mana banyak
+                      ditemukan di sekitar area seperti Tenjin dan Nakasu.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- next button -->
+          <button
+            class="next p-3 rounded-full bg-white relative w-12 h-12 lg:w-16 lg:h-16 hover:bg-transparent transition duration-300 ease-in-out group"
+          >
+            <div
+              class="btn-right border-r-[7px] border-t-[7px] border-red-700 w-6 h-6 rotate-[45deg] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 btn-next group-hover:border-white rounded-md"
+            ></div>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- restaurant section end -->
+
+    <!-- masakan section start -->
+    <section class="w-full mt-20">
+      <div class="skew-x-12 bg-gradient-to-r from-gray-950 to-transparent rounded-lg shadow-black shadow-lg w-[80%] lg:w-[60%] m-auto">
+        <h2
+          class="text-center text-2xl text-slate-300 font-fascinate font-semibold -skew-x-12 p-4 text-shadow"
+        >
+          DAFTAR MAKANAN TERPOPULER
+        </h2>
+      </div>
+      <div class="food-cards-wrapper w-[700vw] h-screen bg-transparent flex overflow-hidden">
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              SUSHI
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/sushi.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Sushi adalah makanan khas Jepang yang terbuat dari nasi yang dibumbui dengan cuka, gula, dan garam, yang dipadukan dengan berbagai topping atau isian seperti makanan laut (mentah atau matang), sayuran, atau telur. Meskipun sering dikaitkan dengan ikan mentah, yang menjadi bahan utama adalah nasi berbumbu cuka (sumeshi) itu sendiri. 
+                  <br>
+                  <br>
+                  <span class="font-bold text-base">Jenis-jenis sushi yang umum</span>
+                  <br>
+                  <br>
+                  <span class="font-semibold">Nigirizushi:</span>
+                  <br> Nasi berbentuk lonjong yang di atasnya diletakkan irisan neta. <br>
+                  <span class="font-semibold">Makizushi:</span>
+                  <br> Nasi dan isian yang digulung di dalam rumput laut (nori). <br>
+                  <span class="font-semibold">Uramaki:</span>
+                  <br> Nasi berada di lapisan luar, sedangkan nori dan isiannya berada di dalam.<br>
+                  <span class="font-semibold">Temakizushi:</span>
+                  <br> Nasi dan isian yang dibungkus nori dan dibentuk menjadi kerucut, seperti "tangan" yang bisa dimakan langsung.<br>
+                  <span class="font-semibold">Chirashizushi:</span>
+                  <br> Nasi yang disajikan dalam mangkuk dan ditaburi berbagai macam neta.
+                </p>
+                
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  <span class="font-semibold">Nasi (Shari):</span>
+                  <br>Nasi Jepang yang dimasak dan dicampur dengan cuka, gula, dan garam.<br>
+                  <span class="font-semibold">Topping/Isian (Neta):</span>
+                  <br>Beragam bahan yang diletakkan di atas atau di dalam nasi, yang umum berupa hidangan laut, tetapi bisa juga sayuran, telur, atau lainnya<br><br>
+                  <span class="font-bold text-base">Cara penyajian dan pelengkap</span><br><br>
+                  Sushi biasanya disajikan dingin.
+                  Secara tradisional, sushi dimakan dengan tangan, namun sumpit juga bisa digunakan.
+                  Pelengkap yang umum disajikan bersama sushi adalah kecap asin, wasabi (pasta lobak pedas), dan acar jahe (gari). 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Kandungan gizi sushi sangat bervariasi tergantung jenisnya, tetapi secara umum sushi mengandung nutrisi dari bahan utamanya seperti nasi, ikan atau makanan laut, dan rumput laut (nori). Ikan memberikan protein dan lemak omega-3, nori kaya vitamin dan mineral, sedangkan nasi menyediakan karbohidrat. Sushi juga bisa tinggi kalori, lemak, dan sodium tergantung pada bahan tambahan seperti mayones atau tempura.<br> <br>
+                  <span class="font-bold text-base">Kandungan gizi umum (per 100 gram sushi dengan daging salmon)</span> <br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Energi: 107 kkal</li>
+                    <li class="list-disc list-inside">Protein: 8,92 g</li>
+                    <li class="list-disc list-inside">Lemak: 1,74 g</li>
+                    <li class="list-disc list-inside">Karbohidrat: 13,4 g</li>
+                    <li class="list-disc list-inside">Serat: 0,6 g</li>
+                    <li class="list-disc list-inside">Gula: 0,8 g</li>
+                    <li class="list-disc list-inside">Kalsium: 5 mg</li>
+                    <li class="list-disc list-inside">Air: 74,8 g</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              RAMEN
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/ramen.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Ramen adalah hidangan mi kuah khas Jepang yang terdiri dari mi, kaldu gurih, dan berbagai topping. Hidangan ini populer di seluruh dunia dan memiliki beragam jenis berdasarkan kaldu dan toppingnya, seperti Shio, Shoyu, Miso, dan Tonkotsu. Meskipun identik dengan Jepang, asalnya berasal dari Tiongkok dan telah menjadi fenomena kuliner global. <br><br>
+                  <span class="font-bold text-base">Jenis-jenis ramen populer</span> <br><br>
+                  <span class="font-semibold">Shio:</span>  <br> Menggunakan garam sebagai bumbu dasar utama kaldu, menghasilkan kuah bening dan gurih <br>
+                  <span class="font-semibold">Shoyu:</span> <br> Menggunakan kecap asin sebagai bumbu dasar, menghasilkan kuah kecoklatan dan rasa gurih. <br>
+                  <span class="font-semibold">Miso:</span> <br> Dibuat dengan menambahkan pasta miso ke dalam kaldu, menghasilkan kuah yang kental, kaya rasa, dan sedikit manis. <br>
+                  <span class="font-semibold">Tonkotsu:</span> <br>Dibuat dengan merebus tulang babi dalam waktu lama hingga menghasilkan kuah berwarna putih susu yang kaya dan pekat.
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  <span class="font-bold text-base">Komponen utama ramen</span><br><br>
+                  <span class="font-semibold">Mie:</span> <br> Biasanya terbuat dari tepung terigu, air, garam, dan kansui, yaitu air mineral alkali. Ketebalan, tekstur, dan bentuknya bisa bervariasi. <br>
+                  <span class="font-semibold">Kaldu:</span> <br> Merupakan dasar rasa yang kaya dan gurih. Kaldu ramen umumnya terbuat dari kaldu ayam atau babi yang dipadukan dengan berbagai bahan lain seperti tulang babi, tuna, sarden kering, jamur, dan kelp. <br>
+                  <span class="font-semibold">Topping:</span> <br> Bervariasi tergantung jenisnya, dapat meliputi irisan daging babi, telur rebus, rebung bambu (menma), daun bawang, nori (rumput laut), perkedel ikan, dan tauge. 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Kandungan gizi ramen bervariasi tergantung jenis dan toppingnya, tetapi secara umum mengandung kalori tinggi, karbohidrat, protein, dan lemak, serta tinggi natrium dan seringkali rendah serat. Ramen juga bisa mengandung vitamin B (seperti tiamin dan riboflavin) dan mineral (seperti zat besi) dari mie dan kaldu, namun seringkali kurang vitamin dan mineral penting lainnya seperti serat. <br><br>
+                  <span class="font-bold text-base">Nutrisi dalam ramen (rata-rata) </span><br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Kalori: 370-468 kkal</li>
+                    <li class="list-disc list-inside">Karbohidrat: 27-76 gram</li>
+                    <li class="list-disc list-inside">Protein: 5-42 gram </li>
+                    <li class="list-disc list-inside">Lemak: Rendah</li>
+                    <li class="list-disc list-inside">Natrium: 850-2.500 mg</li>
+                    <li class="list-disc list-inside">Serat: Rendah</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              SASHIMI
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/sashimi.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Sashimi adalah hidangan Jepang berupa irisan tipis daging mentah dari ikan segar atau makanan laut lainnya yang disajikan tanpa nasi. Hidangan ini biasanya disantap dengan kecap asin, wasabi, dan hiasan seperti lobak daikon parut atau acar jahe. <br><br>
+                  Berbeda dengan sushi yang selalu memakai nasi cuka, sashimi hanya menyajikan irisan ikan mentah tanpa nasi, dan fokus utamanya adalah menonjolkan rasa alami ikan. 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  <span class="font-semibold">Bahan utama:</span> <br> Terbuat dari ikan atau makanan laut yang sangat segar, seperti tuna, salmon, kakap, udang, atau cumi-cumi. <br><br>
+                  <span class="font-semibold">Penyajian:</span> <br> Disajikan mentah dan diiris dengan berbagai cara, mulai dari sangat tipis hingga tebal, tergantung jenis ikan. <br><br>
+                  <span class="font-semibold">Bumbu pelengkap:</span> <br> Umumnya disantap dengan kecap asin, wasabi, dan lobak daikon parut atau acar jahe untuk menambah cita rasa. 
+
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Sashimi kaya akan protein murni, lemak sehat seperti omega-3, dan vitamin (seperti vitamin D dan B), tetapi tidak mengandung karbohidrat, serat, atau gula. Kandungan gizinya bergantung pada jenis ikan, namun secara umum, sashimi adalah pilihan makanan rendah kalori dan kaya nutrisi yang baik untuk membangun otot dan kesehatan jantung. <br><br>
+                  <span class="font-bold text-base">Kandungan gizi per porsi (30 gram) jenisn salmon</span><br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Protein: 6,3 gram</li>
+                    <li class="list-disc list-inside">Lemak : 4,1 gram</li>
+                  </ul> <br><br>
+                  <span class="font-bold text-base">Kandungan gizi per porsi (30 gram) jenisn tuna</span><br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Protein: 7,6 gram</li>
+                    <li class="list-disc list-inside">Lemak : 0,2 gram</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              TAKOYAKI
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/takoyaki.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Takoyaki adalah jajanan atau camilan khas Jepang berbentuk bola-bola kecil yang terbuat dari adonan tepung terigu dan diisi dengan potongan gurita. Makanan ini dibentuk dalam cetakan khusus dengan bagian dalamnya yang kenyal dan luar yang renyah, lalu biasanya disajikan dengan berbagai topping seperti saus takoyaki, mayones, serutan rumput laut (aonori), dan serpihan ikan cakalang kering (katsuobushi). 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  <span class="font-bold text-base">Komponen utama takoyaki: </span><br><br>
+                  <span class="font-semibold">Adonan: </span><br> Terbuat dari tepung terigu dan air atau dashi (kaldu ikan). <br>
+                  <span class="font-semibold">Isian:</span> <br> Umumnya berisi potongan gurita cincang, tetapi bisa juga berisi tempura, jahe acar (beni shoga), dan daun bawang (negi). <br>
+                  <span class="font-semibold">Topping:</span> <br> Saus takoyaki (mirip saus Worcestershire), mayones, katsuobushi (serutan bonito), dan aonori (rumput laut hijau). <br><br>
+                  <span class="font-bold text-base">Cara menikmati:</span> <br><br>
+                  Takoyaki biasanya disajikan selagi panas dan dimakan menggunakan tusuk gigi. 
+                  Makanan ini populer sebagai jajanan kaki lima, sering ditemukan di festival, atau sebagai lauk pendamping. 
+                  Nama takoyaki berasal dari kata "tako" (gurita) dan "yaki" (bakar), sehingga secara harfiah berarti "gurita bakar". 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Kandungan gizi takoyaki bervariasi tergantung porsi dan cara memasak, tetapi sekitar 100 gram takoyaki umumnya mengandung sekitar 210 kalori, 10 gram lemak, 20 gram karbohidrat, dan 9 gram protein. <br><br>
+                  <span class="font-bold text-base"> Kandungan gizi takoyaki per satu buah (sekitar 40 gram)</span> <br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Kalori: 70 kalori</li>
+                    <li class="list-disc list-inside">Lemak: 3,02 gram</li>
+                    <li class="list-disc list-inside">Karbohidrat: 7,11 gram</li>
+                    <li class="list-disc list-inside">Protein: 3,38 gram </li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              TEMPURA
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/tempura.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Tempura adalah hidangan Jepang yang terdiri dari makanan laut atau sayuran yang dilapisi adonan tepung tipis dan digoreng. Adonan yang renyah ini dibuat dari campuran tepung terigu, air dingin, dan terkadang telur, yang kemudian digoreng dalam minyak yang banyak hingga matang dan berwarna kuning keemasan. <br><br>
+                  Kata "tempura" diduga berasal dari kata Portugis, seperti "tempero" yang berarti 'membumbui' atau 'memasak'.
+                  Hidangan ini diperkirakan masuk ke Jepang sekitar abad ke-16 melalui pedagang dan misionaris Portugis di wilayah Kyushu.
+                  Seiring waktu, tempura berkembang menjadi hidangan populer di Jepang dan kini dikenal luas di seluruh dunia. <br><br>
+                  <span class="font-bold text-base">Variasi temppura</span><br><br>
+                  <span class="font-semibold">Ayam: </span><br> Ada juga varian seperti toriten, yaitu tempura yang terbuat dari potongan ayam. <br>
+                  <span class="font-semibold">Kombinasi: </span><br> Selain itu, ada kakiage, yaitu tempura yang merupakan semacam bakwan yang berisi campuran udang kecil, kerang kecil, dan sayuran yang digoreng bersama. <br> 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  <span class="font-bold text-base">Bahan-bahan </span><br><br>
+                  <span class="font-semibold">Bahan utama:</span> <br> Umumnya terdiri dari makanan laut seperti udang dan cumi-cumi, serta berbagai macam sayuran seperti labu kuning, terong, jamur shiitake, dan kacang-kacangan. <br><br>
+                  <span class="font-bold text-base">Ciri khas dan cara penyajian</span> <br><br>
+                  <span class="font-semibold">Tekstur:</span> <br> Ciri khas tempura adalah lapisan luarnya yang renyah dan tidak berminyak. <br>
+                  <span class="font-semibold">Penyajian:</span> <br> Tempura bisa disajikan sebagai hidangan utama atau lauk, dan seringkali dinikmati dengan nasi. <br>
+                  <span class="font-semibold">Bumbu:</span> <br> Umumnya disajikan dengan saus tempura yang terbuat dari kaldu ikan (dashi), kecap asin, dan mirin, yang bisa ditambah dengan lobak parut atau jahe parut. Beberapa orang juga lebih menyukai penyajian sederhana dengan garam. 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm font-arial leading-relaxed">
+                  Kandungan gizi tempura bervariasi tergantung jenis dan porsinya, tetapi secara umum tempura kaya kalori, lemak, dan karbohidrat, serta mengandung protein dan beberapa vitamin serta mineral dari bahan aslinya (seperti udang atau sayuran). <br><br>
+                  <span class="font-bold text-base">Kandungan gizi per 100 gram jenis udang</span> <br><br>
+                  <ul>
+                    <li class="list-disc list-inside">Energi: 145 kkal</li>
+                    <li class="list-disc list-inside">Protein: 18,21 g</li>
+                    <li class="list-disc list-inside">Lemak: 10,36 g</li>
+                    <li class="list-disc list-inside">Karbohidrat: 20,0 g</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              YAKINIKU
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/yakiniku.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  Yakiniku adalah hidangan Jepang berupa daging panggang yang dimasak pengunjung secara mandiri di atas panggangan di meja. Istilah "yakiniku" berasal dari kata "yaki" (panggang) dan "niku" (daging). Daging yang digunakan biasanya diiris tipis dan telah direndam atau dibumbui, dan sering disantap dengan berbagai macam saus setelah dipanggang. <br><br>
+                  <span class="font-bold text-base">Karakteristik Yakiniku </span><br><br>
+                  <span class="font-semibold"></span>Proses masak: <br> Pengunjung memasak sendiri daging dan sayuran mentah di atas panggangan yang ada di meja restoran. <br>
+                  <span class="font-semibold">Bahan: </span><br> Daging yang paling umum adalah daging sapi, tetapi dapat juga berupa ayam, babi, makanan laut, atau jeroan seperti lidah dan babat. <br>
+                  <span class="font-semibold">Panggangan:</span> <br> Umumnya menggunakan panggangan arang atau listrik, bisa berupa jaring atau piring besi (teppan-yaki). <br>
+                  <span class="font-semibold">Saus:</span> <br> Daging bisa dibumbui sebelum dipanggang atau dicelupkan ke dalam saus setelah matang. <br>
+                  <span class="font-semibold">Sajian: </span><br> Seringkali disajikan dengan hidangan sampingan ala Korea seperti kimchi atau bibimbap. 
+                   
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  <span class="font-bold text-base">Berikut rincian bahan-bahan yang umum digunakan: </span><br><br>
+                  <span class="font-semibold">Daging sapi iris tipis (short plate/sandung lamur):</span> <br> Sekitar 350-500 gram, diiris tipis agar cepat matang. <br>
+                  <span class="font-semibold">Bawang bombay:</span> <br> Satu buah, diiris memanjang atau sesuai selera. <br>
+                  <span class="font-semibold">Paprika hijau/merah (opsional):</span> <br> Diiris untuk menambah warna dan rasa. <br>
+                  <span class="font-semibold">Bawang putih dan jahe:</span> <br> Untuk aroma tumisan. <br><br>
+                  <span class="font-bold text-base">Cara menyantap Yakiniku </span> <br><br>
+                  <span class="font-semibold">Pesan bahan:</span> <br> Pesan berbagai jenis daging dan sayuran mentah yang diinginkan. <br>
+                  <span class="font-semibold">Panggang di meja:</span> <br> Masak daging dan sayuran di atas panggangan hingga tingkat kematangan yang Anda sukai. <br>
+                  <span class="font-semibold">Bumbui dengan saus:</span> <br> Celupkan daging yang sudah matang ke dalam saus yakiniku yang tersedia. <br>
+                  <span class="font-semibold">Nikmati: </span><br> Sajikan bersama hidangan pendamping lainnya seperti nasi.
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  Yakiniku kaya akan protein, lemak, dan mineral seperti zat besi, seng, dan kalsium dari dagingnya. Selain itu, kandungan vitamin B, vitamin D, dan serat pangan juga ada, meskipun jumlahnya bervariasi tergantung pada jenis daging dan cara penyajiannya. <br><br>
+                  <span class="font-bold text-base">Untuk 1 porsi (100 g) Beef Yakiniku (Hoka Hoka Bento):</span> <br><br>
+                  <ul>
+                    <li class="list-disc list-inside">kalori : 130kkal</li>
+                    <li class="list-disc list-inside">protein : 14gr</li>
+                    <li class="list-disc list-inside">lemak : 6gr</li>
+                    <li class="list-disc list-inside">karbohidrat : 5gr</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="food-card h-screen flex flex-none basis-[100vw] justify-center items-center rounded-lg">
+          <div class="card-content w-[90vw] h-[80%] rounded-lg relative overflow-hidden bg-slate-300 shadow-black/50 shadow-lg border-2 border-white">
+            <h1
+              class="absolute bottom-4 left-4 md:left-auto md:right-4 z-10 text-4xl text-red-700 font-fascinate text-shadow z-[999]"
+              style="
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: white;
+              "
+            >
+              YAKITORI
+            </h1>
+            <!-- image section -->
+            <div
+              class="w-full h-full -skew-x-12 absolute left-[-65%] overflow-hidden z-10 border-r-[2rem] border-double border-white"
+            >
+              <div
+                class="w-full h-full skew-x-12 bg-[url('./img/yakitori.webp')] bg-center bg-cover bg-no-repeat translate-x-[50%]"
+              ></div>
+            </div>
+            <!-- info section -->
+            <div class="scroll-container w-full h-full mt-20 flex flex-col items-end px-4">
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  Yakitori adalah sate ayam panggang khas Jepang yang dibuat dari berbagai bagian ayam, termasuk daging, kulit, dan jeroan, yang ditusuk dengan tusuk sate bambu dan dibakar di atas arang. Hidangan ini dibumbui dengan dua pilihan utama: garam (shio) atau saus manis-asin (tare), dan dapat dinikmati sebagai kudapan atau hidangan lengkap bersama minuman seperti bir. <br><br>
+                  <span class="font-bold text-base">Fakta menarik </span><br><br>
+                  <span class="font-semibold">Istilah umum:</span> <br> Terkadang, istilah yakitori juga digunakan secara umum untuk merujuk pada kushiyaki (satean Jepang lainnya) secara umum, seperti sate sapi atau sayuran. <br>
+                  <span class="font-semibold">Bisa juga berisi sayuran:</span> <br> Selain daging ayam, restoran yakitori juga sering menyajikan sayuran seperti bawang daun, jamur, tomat, atau jagung muda sebagai pilihan lain. 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  <span class="font-bold text-base">Bahan dan cara memasak </span><br><br>
+                  <span class="font-semibold">Berbagai bagian ayam:</span> <br> Yakitori tidak hanya menggunakan daging dada atau paha, tetapi juga memanfaatkan seluruh bagian ayam, seperti sayap (tebasaki), kulit (kawa), ampela (sunagimo), dan hati (hatsu). <br>
+                  <span class="font-semibold">Pilihan bumbu:</span> <br> Bumbu utama yang digunakan adalah garam (shio) untuk rasa asin, atau tare (saus manis yang terbuat dari kedelai) untuk rasa manis dan gurih. <br><br>
+                  <span class="font-bold text-base">Cara menikmati </span><br><br>
+                  <span class="font-semibold">Pesan sesuai selera:</span> <br> Saat memesan, Anda bisa memilih bumbu yang diinginkan (shio atau tare) dan jenis bagian ayamnya. <br>
+                  <span class="font-semibold">Penyajian: </span><br> Yakitori disajikan dalam porsi kecil, sering kali sebagai camilan sebelum makan malam, atau sebagai hidangan utama yang lebih lengkap dengan tambahan hidangan lain. <br>
+                  <span class="font-semibold">Makan yakitori:</span> <br> Saat menyantap, nikmati rasa asli atau tambahkan sedikit garam terlebih dahulu. Setelah itu, baru ditambahkan saus tare atau suchimi (cabai bubuk) untuk rasa yang lebih pedas. 
+                </p>
+            </div>
+              <div
+                class="w-[50%] min-h-full"
+              >
+                <p class="text-xs md:text-sm leading-relaxed font-arial">
+                  Kandungan gizi yakitori dapat bervariasi tergantung resep dan bumbu yang digunakan. Selain makronutrien tersebut, yakitori juga merupakan sumber serat dan karbohidrat yang baik, yang dapat memberikan energi bagi tubuh. <br><br>
+                  <span class="font-bold text-base">Kandugan gizi per 100 gram</span>
+                  <ul>
+                    <li class="list-disc list-inside">kalori : 	140-178 kkal</li>
+                    <li class="list-disc list-inside">protein: 15 gram</li>
+                    <li class="list-disc list-inside">lemak : 7 gram</li>
+                    <li class="list-disc list-inside">karbohidrat : 5 gram</li>
+                    <li class="list-disc list-inside">serat : 1 gram</li>
+                  </ul>
+                </p>
+            </div>
+          </div>
+          <!-- button section -->
+          <div
+            class="absolute top-4 right-4 flex justify-end items-center gap-4 z-10"
+          >
+            <button
+              class="btn-info info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                INFO
+              </h3>
+            </button>
+            <button
+              class="btn-bahan info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                BAHAN
+              </h3>
+            </button>
+            <button
+              class="btn-gizi info bg-black p-2 -skew-x-[12deg] rounded-lg shadow-md shadow-black/50 border-2 border-white"
+            >
+              <h3
+                class="skew-x-[12deg] px-4 text-base text-slate-300 font-fascinate"
+              >
+                GIZI
+              </h3>
+            </button>
+          </div>
+          </div>
+        </div>
+    </section>
+    <!-- masakan section end -->
+
+    <!-- about section start -->
+     <section class="w-full px-4 flex justify-center mb-10 bg-gradient-to-b from-transparent to-gray-950">
+      <div class="w-2/3 flex flex-wrap justify-center items-center p-4 gap-4">
+        <h2 class="text-2xl text-center text-slate-300 text-shadow font-fascinate font-bold">Tentang Saya</h2>
+        <p class="text-sm text-center text-slate-300 font-arial">Saya membuat web ini untuk tujuan belajar, saya harap kedepannya saya bisa terus mengembangkan skill saya dalam membuat dan mendesain web yang lebih bagus. Jika kalau ada yang mau mampir ke web portfolio saya silahkan kunjungi : <a href="https://baim0306.github.io/Portfolio">https://baim0306.github.io/Portfolio</a> </p>
+      </div>
+     </section>
+    <!-- about section end -->
+
+    <!-- footer section start -->
+     <footer class="w-full relative ">
+      <div class="w-full absolute bottom-0 left-0  flex justify-between items-center bg-gray-950 border-t-2 border-gray-800 p-2">
+        <h3 class="text-slate-300 text-center text-sm">made by <span class="font-fascinate font-semibold text-red-700 text-base">Baim</span></h3>
+        <p class="text-slate-300 text-center text-xs">© 2025 Japan Gourmet Project. Not affiliated with any company or brand named "Japan Gourmet".</p>
+      </div>
+     </footer>
+    <!-- footer section end -->
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/MotionPathPlugin.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
