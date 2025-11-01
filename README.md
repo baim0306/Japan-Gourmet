@@ -30,4 +30,3 @@ Proyek ini dibuat menggunakan **HTML**, **Tailwind CSS**, **JavaScript**, dan **
 1. Clone repositori ini:
    ```bash
    git clone https://github.com/baim0306/japan-gourmet.git
-   ```
