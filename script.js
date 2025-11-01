@@ -34,7 +34,7 @@ gsap.to(foodCards, {
   scrollTrigger: {
     trigger: ".food-cards-wrapper",
     pin: true,
-    scrub: 0.3,
+    scrub: 0.1,
     snap: 1 / (foodCards.length - 1),
     end: () =>
       "+=" +
